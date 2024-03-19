@@ -21,11 +21,7 @@ export const products = [
       count: 87
     },
     priceCents: 360,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
+
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
@@ -36,10 +32,7 @@ export const products = [
       count: 127
     },
     priceCents: 360,
-    keywords: [
-      "sports",
-      "basketballs"
-    ]
+
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
@@ -50,11 +43,6 @@ export const products = [
       count: 56
     },
     priceCents: 360,
-    keywords: [
-      "tshirts",
-      "apparel",
-      "mens"
-    ],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
   },
@@ -67,11 +55,7 @@ export const products = [
       count: 2197
     },
     priceCents: 360,
-    keywords: [
-      "toaster",
-      "kitchen",
-      "appliances"
-    ]
+
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
@@ -82,11 +66,7 @@ export const products = [
       count: 37
     },
     priceCents: 360,
-    keywords: [
-      "plates",
-      "kitchen",
-      "dining"
-    ]
+
   },
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
@@ -97,10 +77,7 @@ export const products = [
       count: 175
     },
     priceCents: 360,
-    keywords: [
-      "kitchen",
-      "cookware"
-    ]
+
   },
   {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
@@ -111,11 +88,7 @@ export const products = [
       count: 317
     },
     priceCents: 360,
-    keywords: [
-      "hoodies",
-      "sweaters",
-      "apparel"
-    ]
+
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
@@ -136,10 +109,7 @@ export const products = [
       count: 305
     },
     priceCents: 360,
-    keywords: [
-      "bathroom",
-      "cleaning"
-    ]
+
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
@@ -150,11 +120,7 @@ export const products = [
       count: 89
     },
     priceCents: 360,
-    keywords: [
-      "shoes",
-      "running shoes",
-      "footwear"
-    ]
+
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
@@ -165,13 +131,6 @@ export const products = [
       count: 235
     },
     priceCents: 360,
-    keywords: [
-      "robe",
-      "swimsuit",
-      "swimming",
-      "bathing",
-      "apparel"
-    ],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
   },
@@ -184,89 +143,62 @@ export const products = [
       count: 30
     },
     priceCents: 360,
-    keywords: [
-      "accessories",
-      "shades"
-    ]
+
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/women-beach-sandals.jpg",
-    name: "Women's Two Strap Buckle Sandals - Tan",
+    image: "images/products/Aquabeach.png",
+    name: "AI Artwork - Aquabeach",
     rating: {
       stars: 4.5,
       count: 562
     },
-    priceCents: 2499,
-    keywords: [
-      "footwear",
-      "sandals",
-      "womens",
-      "beach",
-      "summer"
-    ]
+    priceCents: 360,
+
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/products/blackout-curtain-set-beige.webp",
-    name: "Blackout Curtains Set 4-Pack - Beige",
+    image: "images/products/Shelfwhite.png",
+    name: "AI Artwork - Shelfwhite",
     rating: {
       stars: 4.5,
       count: 232
     },
-    priceCents: 4599,
-    keywords: [
-      "bedroom",
-      "curtains",
-      "home"
-    ]
+    priceCents: 360,
+
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
-    name: "Men's Slim-Fit Summer Shorts",
+    image: "images/products/Tigercharge.png",
+    name: "Ai Artwork - Tigercharge",
     rating: {
       stars: 4,
       count: 160
     },
-    priceCents: 1699,
-    keywords: [
-      "shorts",
-      "apparel",
-      "mens"
-    ]
+    priceCents: 360,
+
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/electric-glass-and-steel-hot-water-kettle.webp",
-    name: "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
+    image: "images/products/Abstractmulti.png",
+    name: "Ai Artwork - Abstractmulti",
     rating: {
       stars: 5,
       count: 846
     },
-    priceCents: 3074,
-    keywords: [
-      "water boiler",
-      "appliances",
-      "kitchen"
-    ]
+    priceCents: 360,
+
   },
   {
     id: "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
-    image: "images/products/facial-tissue-2-ply-18-boxes.jpg",
-    name: "Ultra Soft Tissue 2-Ply - 18 Box",
+    image: "images/products/Abstractgreen.png",
+    name: "AI Artwork - Abstractgreen",
     rating: {
       stars: 4,
       count: 99
     },
-    priceCents: 2374,
-    keywords: [
-      "kleenex",
-      "tissues",
-      "kitchen",
-      "tissues box",
-      "napkins"
-    ]
+    priceCents: 360,
+
   },
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
