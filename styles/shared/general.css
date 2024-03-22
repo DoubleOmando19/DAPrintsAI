@@ -29,7 +29,7 @@ button {
 .button-primary {
   color: black;
   background-color: rgb(252, 206, 149);
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
