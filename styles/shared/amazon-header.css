@@ -61,11 +61,12 @@
 }
 
 .amazon-header-middle-section {
-  flex: 1;
   max-width: 850px;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
+  flex-shrink: 0;
+  flex-wrap: 0;
 }
 
 .search-bar {
