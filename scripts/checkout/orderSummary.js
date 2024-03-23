@@ -59,13 +59,6 @@ export function renderOrderSummary() {
               </span>
             </div>
           </div>
-
-          <div class="delivery-options">
-            <div class="delivery-options-title">
-              Choose a delivery option:
-            </div>
-            ${deliveryOptionsHTML(matchingProduct, cartItem)}
-          </div>
         </div>
       </div>
     `;
