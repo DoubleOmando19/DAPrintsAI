@@ -57,8 +57,8 @@ export const products = [
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/Shark.png",
-    name: "AI Artwork - Shark",
+    image: "images/products/flowers.png",
+    name: "AI Artwork - Flowers",
     rating: {
       stars: 4,
       count: 37
@@ -90,8 +90,8 @@ export const products = [
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/flowers.png",
-    name: "AI Artwork - Flower Fountain",
+    image: "images/products/Shark.png",
+    name: "AI Artwork - The Shark",
     rating: {
       stars: 4.5,
       count: 144
