@@ -25,8 +25,8 @@ export const products = [
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/OilTanker.png",
-    name: "AI Artwork - Oil Tanker",
+    image: "images/products/Theship.png",
+    name: "AI Artwork - The Ship",
     rating: {
       stars: 4,
       count: 127
@@ -90,8 +90,8 @@ export const products = [
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/Tank.png",
-    name: "AI Artwork - Tank",
+    image: "images/products/flowers.png",
+    name: "AI Artwork - Flower Fountain",
     rating: {
       stars: 4.5,
       count: 144
@@ -487,5 +487,45 @@ export const products = [
       count: 3157
     },
     priceCents: 299
-  }
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a959",
+    image: "images/products/Tank.png",
+    name: "AI Artwork - The Tank",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 299
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a960",
+    image: "images/products/Containership.png",
+    name: "AI Artwork - Container Ship",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 299
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a961",
+    image: "images/products/Abstractvibe.png",
+    name: "AI Artwork - Abstract vibe",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 299
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a962",
+    image: "images/products/Phonebooth.png",
+    name: "AI Artwork - Phone Booth",
+    rating: {
+      stars: 4.5,
+      count: 3157
+    },
+    priceCents: 299
+  },
 ]
