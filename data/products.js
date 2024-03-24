@@ -355,8 +355,8 @@ export const products = [
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/Pinktree.png",
-    name: "AI Artwork - Pinktree",
+    image: "images/products/Abstractsplash.png",
+    name: "AI Artwork - Abstractsplash",
     rating: {
       stars: 4.5,
       count: 117
@@ -437,8 +437,8 @@ export const products = [
   },
   {
     id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/Abstractsplash.png",
-    name: "AI Artwork - Abstractsplash",
+    image: "images/products/Pinktree.png",
+    name: "AI Artwork - Pink tree",
     rating: {
       stars: 4.5,
       count: 1045
