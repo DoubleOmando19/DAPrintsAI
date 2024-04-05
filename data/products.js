@@ -132,9 +132,9 @@ export const products = [
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/Designer.png",
-    image1: "/images/New Project picz PDF/Designer.pdf",
-    name: "AI Artwork - Shelf Design",
+    image: "images/products/Abstractmulti.png",
+    image1: "/images/New Project picz PDF/Abstractmulti.pdf",
+    name: "AI Artwork - Abstractmulti",
     rating: {
       stars: 4.5,
       count: 235
@@ -191,9 +191,9 @@ export const products = [
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/Abstractmulti.png",
-    image1: "/images/New Project picz PDF/Abstractmulti.pdf",
-    name: "AI Artwork - Abstractmulti",
+    image: "images/products/Designer.png",
+    image1: "/images/New Project picz PDF/Designer.pdf",
+    name: "AI Artwork - Shelf Design",
     rating: {
       stars: 5,
       count: 846
