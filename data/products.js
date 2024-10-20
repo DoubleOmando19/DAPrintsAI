@@ -447,9 +447,9 @@ export const products = [
   },
   {
     "id": "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    "image": "images/products/Thedawnmoon.png",
+    "image": "images/products/Supermoon.png",
     "image1": "/images/New Project picz PDF/Thedawnmoon.pdf",
-    "name": "AI Artwork - The dawn moon",
+    "name": "AI Artwork - Supermoon",
     "rating": {
       "stars": 4,
       "count": 89
@@ -568,5 +568,16 @@ export const products = [
       "count": 3157
     },
     "priceCents": 299
-  }
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a962",
+    "image": "images/products/Buffalo.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - Buffalo",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 299
+  },
 ];
