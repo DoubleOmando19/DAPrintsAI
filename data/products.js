@@ -580,4 +580,48 @@ export const products = [
     },
     "priceCents": 299
   },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a963",
+    "image": "images/products/Canaries.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - Canaries",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 299
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a964",
+    "image": "images/products/Bonzai.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - Bonzai",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 299
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a965",
+    "image": "images/products/Parrot.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - Parrot",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 299
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a962",
+    "image": "images/products/Waterfall.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - Waterfall",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 299
+  }
 ];
