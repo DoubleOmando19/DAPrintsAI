@@ -40,7 +40,7 @@ export function renderOrderSummary() {
             src="${matchingProduct.image}">
 
           <div class="cart-item-details">
-            <div class="product-name">
+            <div class="product-name stripe-buy-button">
               Digital Download
             </div>
             <div class="product-price">

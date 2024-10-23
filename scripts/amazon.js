@@ -26,7 +26,7 @@ products.forEach((product) => {
         $${formatCurrency(product.priceCents)}
       </div>
       
-      <div class="product-quantity-container">
+      <div class="stripe-buy-button">
         <button onclick="stripe();" target="_blank"> Digital Download
         </button>
       </div> 

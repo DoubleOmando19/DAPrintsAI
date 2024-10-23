@@ -53,8 +53,9 @@ export function renderPaymentSummary() {
       </div>
     </div>
 
-    <button class="place-order-button button-primary">
+    <button class="place-order-button button-primary stripe-buy-button">
       place order button
+      $${stripe(stripe)}
     </button>
   `;
 
