@@ -27,8 +27,8 @@ products.forEach((product) => {
       </div>
       
       <div class="product-quantity-container">
-        <p> Digital Download
-        </p>
+        <button onclick="stripe();" target="_blank"> Digital Download
+        </button>
       </div> 
       
       <div class="product-spacer"></div>

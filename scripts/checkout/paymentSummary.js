@@ -54,7 +54,7 @@ export function renderPaymentSummary() {
     </div>
 
     <button class="place-order-button button-primary">
-      Place your order
+      place order button
     </button>
   `;
 
