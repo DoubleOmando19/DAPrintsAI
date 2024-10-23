@@ -27,7 +27,7 @@ products.forEach((product) => {
         $${formatCurrency(product.priceCents)}
       </div>
       
-      <div class="product-container stripe-buy-button">
+      <div class="product-quality-container stripe-buy-button">
         <a href="https://buy.stripe.com/00g9Et2572qI23K9AD">
       </div> 
       

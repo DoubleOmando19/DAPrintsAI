@@ -2,6 +2,7 @@ import { cart } from '../../data/cart.js';
 import { getProduct } from '../../data/products.js';
 import { getDeliveryOption } from '../../data/deliveryOptions.js';
 import { formatCurrency } from '../utils/money.js';
+import { stripe } from '../stripe.js';
 
 export function renderPaymentSummary() {
 
