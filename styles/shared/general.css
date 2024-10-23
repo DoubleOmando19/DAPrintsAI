@@ -6,6 +6,7 @@ body {
   margin: 0;
   text-decoration: none;
   display: grid;
+  background-color: whitesmoke;
 }
 
 /* <p> elements have a default margin on the top

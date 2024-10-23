@@ -130,6 +130,7 @@
 }
 
 .product-price {
+  font-size: 21px;
   font-weight: 700;
   margin-bottom: 10px;
   text-decoration: none;
