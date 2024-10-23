@@ -56,7 +56,6 @@ export function renderPaymentSummary() {
 
     <button class="place-order-button button-primary stripe-buy-button">
       place order button
-    
     </button>
   `;
 

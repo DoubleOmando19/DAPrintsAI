@@ -4,12 +4,16 @@ body {
   /* The <body> element has a default margin of 8px
      on all sides. This removes the default margins. */
   margin: 0;
+  text-decoration: none;
+  display: grid;
 }
 
 /* <p> elements have a default margin on the top
    and bottom. This removes the default margins. */
 p {
   margin: 0;
+  text-decoration: none;
+  display: grid;
 }
 
 button {
@@ -74,6 +78,7 @@ button {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .link-primary {

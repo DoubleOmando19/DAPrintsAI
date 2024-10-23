@@ -10,6 +10,7 @@ products.forEach((product) => {
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image" src="${product.image}">
+        <p cursor: pointer; title="Copyright" style="display: flex; font-family: copperplate; margin-top: 110px; margin-left: -30px;">C</p>
       </div>
 
       <div class="product-name limit-text-to-2-lines">
@@ -28,7 +29,7 @@ products.forEach((product) => {
       </div>
       
       <div class="product-quality-container stripe-buy-button">
-        <a href="https://buy.stripe.com/00g9Et2572qI23K9AD">
+        <a style="text-decoration: none; font-family: copperplate; color: black;" href="https://buy.stripe.com/00g9Et2572qI23K9AD">
       </div> 
       
       <div class="product-spacer"></div>
@@ -40,7 +41,7 @@ products.forEach((product) => {
 
       <button class="add-to-cart-button button-primary js-add-to-cart"
       data-product-id="${product.id}">
-        Add to Cart
+        Buy Now
       </button>
     </div>
   `;
