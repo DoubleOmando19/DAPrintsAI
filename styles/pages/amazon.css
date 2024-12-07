@@ -1,5 +1,5 @@
 .main {
-  margin-top: 80px;
+  margin-top: 60px;
   text-decoration: none;
 }
 
@@ -68,10 +68,10 @@
 }
 
 .product-container {
-  margin-left: 20px;
-  padding-top: 20px;
+  margin-left: 80px;
+  padding-top: 40px;
   padding-bottom: 25px;
-  padding-left: 125px;
+  padding-left: 50px;
   padding-right: 25px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
@@ -86,8 +86,8 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin-bottom: 15px;
   text-decoration: none;
 }
@@ -99,7 +99,6 @@
   max-width: 100%;
   max-height: 100%;
   height: 300px;
-  width: 400px;
   text-decoration: none;
 }
 
@@ -107,7 +106,8 @@
   height: 40px;
   margin-bottom: 5px;
   font-size: 17px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
@@ -132,11 +132,11 @@
 }
 
 .product-price {
-  font-size: 21px;
-  font-weight: 700;
+  font-size: 17px;
   margin-bottom: 10px;
   text-decoration: none;
-  font-family: copperplate;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .stripe-buy-button {
@@ -144,6 +144,8 @@
   margin-bottom: 5px;
   text-decoration: none;
   display: grid;
+  margin-top: 0px;
+  width: 10px;
 }
 
 .product-quantity-container {

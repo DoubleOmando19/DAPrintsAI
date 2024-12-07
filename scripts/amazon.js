@@ -10,7 +10,7 @@ products.forEach((product) => {
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image" src="${product.image}">
-        <p cursor: pointer; title="Copyright" style="display: flex; font-family: copperplate; margin-top: 130px; margin-left: -40px;">C</p>
+        <p cursor: pointer; title="Copyright" style="display: flex; font-family: copperplate; margin-top: 180px; margin-left: -50px;">C</p>
       </div>
 
       <div class="product-name limit-text-to-2-lines">
