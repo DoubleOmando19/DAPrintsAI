@@ -624,4 +624,37 @@ export const products = [
     },
     "priceCents": 199
   }
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a963",
+    "image": "images/products/xmastree.jpg",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - XMas Tree",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 199
+  }
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a964",
+    "image": "images/products/babysanta.jpg",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - BabySanta",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 199
+  }
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a965",
+    "image": "images/products/Lama.png",
+    "image1": "/images/New Project picz PDF/Phonebooth.pdf",
+    "name": "AI Artwork - El Lama",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 199
+  }
 ];
