@@ -820,7 +820,7 @@ export const products = [
     "id": "bc2847e9-5323-403f-b7cf-57fde044a981",
     "image": "images/products/Nemo1.jpg",
     "image1": "/images/New Project picz PDF/Phonebooth.pdf",
-    "name": "AI Artwork - Aquarum",
+    "name": "AI Artwork - Aquarium",
     "rating": {
       "stars": 4.5,
       "count": 3157
