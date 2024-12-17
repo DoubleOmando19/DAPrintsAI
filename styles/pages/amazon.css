@@ -6,7 +6,6 @@
 
 .products-grid {
   display: grid;
-  grid-template-columns: column;
 
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
@@ -20,8 +19,6 @@
   grid-template-columns: repeat(8, 1fr);
   text-decoration: none;
   vertical-align: top;
-  align-items: center;
-  justify-content: space-between;
 }
 
 /* @media is used to create responsive design (making the
@@ -54,13 +51,13 @@
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 800px) {
   .products-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 575px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -81,7 +78,6 @@
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   display: grid;
-  grid-template-columns: column;
   text-decoration: none;
   margin-top: 0px;
 }
@@ -105,7 +101,6 @@
 
 .product-name {
   height: 40px;
-
   font-size: 21px;
   font-family: fantasy;
   /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/

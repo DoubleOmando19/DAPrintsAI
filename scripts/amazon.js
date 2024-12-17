@@ -9,7 +9,7 @@ products.forEach((product) => {
   productsHTML += `
     <div class="product-container">
       <div class="product-image-container">
-        <img style="border: none;" class="product-image" src="${product.image}">
+        <img onclick="${product.image}" target="_blank" class="product-image" src="${product.image}">
         <p cursor: pointer; title="Copyright 2025 Alcaide" style="display: flex; font-family: copperplate; margin-top: -50px; margin-left: 50px;">C</p>
       </div>
 
@@ -68,3 +68,8 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   });
 });
 
+function foto(product) {
+  product = product.image;
+  return product.image;
+}
+foto();
