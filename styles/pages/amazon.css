@@ -143,8 +143,9 @@
   font-size: 17px;
   margin-bottom: 10px;
   text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: fantasy;
+  /*font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;*/
 }
 
 .stripe-buy-button {
