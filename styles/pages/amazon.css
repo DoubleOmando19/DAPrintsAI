@@ -5,8 +5,8 @@
 }
 
 .products-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: column;
 
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
@@ -54,9 +54,9 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 660px) {
   .products-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -81,17 +81,15 @@
   padding-right: 25px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: column;
   text-decoration: none;
   margin-top: 1px;
 }
 
 .product-image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-
+  display: grid;
+  grid-template-columns: column;
   height: 270px;
   width: 270px;
   margin-bottom: 15px;
@@ -117,10 +115,10 @@
   /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
   font-weight: bold;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 .product-rating-container {
-  display: flex;
   align-items: center;
   margin-bottom: 10px;
   text-decoration: none;

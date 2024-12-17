@@ -1,4 +1,4 @@
-import { products } from "../data/products";
+import { products } from '../data/products.js';
 
 function stripe(stripe) {
   let stripe = "https://buy.stripe.com/00g9Et2572qI23K9AD";
