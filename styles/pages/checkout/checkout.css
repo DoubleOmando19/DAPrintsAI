@@ -120,7 +120,6 @@
 
 .product-quantity .link-primary {
   margin-left: 3px;
-  color: rgb(29, 29, 252);
 }
 
 @media (max-width: 1000px) {
@@ -211,5 +210,5 @@
   margin-top: 11px;
   margin-bottom: 15px;
   color: black;
-  background-color: bisque;
+  background-color: lightskyblue;
 }
