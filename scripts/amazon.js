@@ -29,7 +29,7 @@ products.forEach((product) => {
       </div>
       
       <div class="product-quality-container stripe-buy-button">
-        <a style="margin-top: -10px; text-decoration: none; font-family: copperplate; color: black;" href="https://buy.stripe.com/6oE17X4dfe9qgYE4gk" target="_blank">
+        <a style="margin-top: -10px; text-decoration: none; font-family: copperplate; color: black;" href="https://buy.stripe.com/14AfZi3xHaqSdrO5dC2cg00" target="_blank">
       </div> 
       
       <div class="product-spacer"></div>
