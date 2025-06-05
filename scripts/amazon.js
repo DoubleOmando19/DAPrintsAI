@@ -23,16 +23,16 @@ const eventListeners = {};
  */
 export const cartEvents = {
   // Add event listener for cart updates
-  on: function(eventName, callback) {
+  on: function (eventName, callback) {
     if (!eventListeners[eventName]) {
       eventListeners[eventName] = [];
     }
     eventListeners[eventName].push(callback);
     return this;
   },
-  
+
   // Remove event listener
-  off: function(eventName, callback) {
+  off: function (eventName, callback) {
     if (eventListeners[eventName]) {
       eventListeners[eventName] = eventListeners[eventName].filter(
         listener => listener !== callback
@@ -40,9 +40,9 @@ export const cartEvents = {
     }
     return this;
   },
-  
+
   // Trigger event with data
-  emit: function(eventName, data) {
+  emit: function (eventName, data) {
     if (eventListeners[eventName]) {
       eventListeners[eventName].forEach(callback => {
         callback(data);
@@ -59,12 +59,12 @@ export const cartEvents = {
 export function calculateCartTotal() {
   try {
     let totalCents = 0;
-    
+
     // Iterate through each item in the cart
     cart.forEach((cartItem) => {
       // Find the product details for this cart item
       const product = products.find(product => product.id === cartItem.id);
-      
+
       if (product) {
         // Add the price of this item (price * quantity) to the total
         totalCents += product.priceCents * cartItem.quantity;
@@ -72,7 +72,7 @@ export function calculateCartTotal() {
         console.error(`Product with ID ${cartItem.id} not found`);
       }
     });
-    
+
     return totalCents;
   } catch (error) {
     console.error('Error calculating cart total:', error);
@@ -88,7 +88,7 @@ export function getCartItems() {
   try {
     return cart.map(cartItem => {
       const product = products.find(product => product.id === cartItem.id);
-      
+
       if (product) {
         return {
           id: cartItem.id,
@@ -128,10 +128,10 @@ export function getFormattedCartTotal() {
 export function enhancedAddToCart(productId) {
   // Call the original addToCart function
   addToCart(productId);
-  
+
   // Update the cart quantity in the UI
   updateCartQuantity();
-  
+
   // Emit cart updated event for Stripe integration
   cartEvents.emit(CART_UPDATED_EVENT, {
     cartItems: getCartItems(),
@@ -208,10 +208,10 @@ function updateCartQuantity() {
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click', () => {
     const productId = button.dataset.productId;
-    
+
     // Use the enhanced addToCart function that triggers events
     enhancedAddToCart(productId);
-    
+
     // The updateCartQuantity is now called inside enhancedAddToCart
   });
 });

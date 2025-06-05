@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles/shared/general.css" />
   <link rel="stylesheet" href="styles/pages/checkout/checkout-header.css" />
   <link rel="stylesheet" href="styles/pages/checkout/checkout.css" />
+  <!-- Load Stripe.js before our JavaScript files -->
   <script src="https://js.stripe.com/v3/"></script>
 </head>
 
@@ -67,6 +68,12 @@
     </div>
   </div>
 
+  <!-- Initialize Stripe with your publishable key -->
+  <script>
+    // Store the Stripe instance in a global variable for access in other scripts
+    const stripe = Stripe('pk_test_your_publishable_key'); // Replace with your actual publishable key in production
+  </script>
+  
   <script type="module" src="scripts/amazon.js"></script>
   <script type="module" src="scripts/checkout.js"></script>
 </body>
