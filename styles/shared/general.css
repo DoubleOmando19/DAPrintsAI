@@ -27,10 +27,10 @@ button {
 }
 
 .button-primary {
-  color: lightskyblue;
+  color: gray;
   font-weight: bold;
-  background-color: white;
-  border: 1px solid lightskyblue;
+  background-color: bisque;
+  border: 1px solid white;
   border-radius: 8px;
   cursor: pointer;
   transition: 1s;
@@ -38,8 +38,8 @@ button {
 
 .button-primary:hover {
   color: white;
-  background-color: lightskyblue;
-  border: 1px solid lightskyblue;
+  background-color: bisque;
+  border: 1px solid white;
   transition: 2s;
 }
 
