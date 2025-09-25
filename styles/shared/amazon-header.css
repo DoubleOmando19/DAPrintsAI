@@ -16,7 +16,7 @@
 }
 
 .amazon-header-left-section {
-  width: 180px;
+  width: 100px;
 }
 
 @media (max-width: 800px) {
@@ -59,7 +59,7 @@
   flex: 1;
   max-width: 850px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 170px;
   display: flex;
 }
 
