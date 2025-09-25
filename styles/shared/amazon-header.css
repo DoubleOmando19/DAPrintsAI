@@ -3,11 +3,9 @@
   color: black;
   padding-left: 15px;
   padding-right: 15px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -115,24 +113,26 @@
 }
 
 .cart-link {
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   position: relative;
 }
 
 .cart-icon {
+  color: black;
   width: 50px;
 }
 
 .cart-text {
+  color: black;
   margin-top: 12px;
   font-size: 15px;
   font-weight: 700;
 }
 
 .cart-quantity {
-  color: rgb(240, 136, 4);
+  color: white;
   font-size: 16px;
   font-weight: 700;
   position: absolute;

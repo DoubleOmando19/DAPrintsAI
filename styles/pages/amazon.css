@@ -96,7 +96,7 @@
 .product-image:hover {
   width: 400px;
   height: 400px;
-  transition: 2s;
+  transition: 4s;
 }
 
 .product-name {
