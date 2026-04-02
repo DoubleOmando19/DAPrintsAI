@@ -18,7 +18,7 @@
  *   SMTP_USER=your-email@gmail.com
  *   SMTP_PASS=your-app-password
  *   EMAIL_FROM=DA Prints AI <your-email@gmail.com>
- *   BASE_URL=http://localhost:3000
+ *   BASE_URL=http://localhost:5500
  */
 
 require('dotenv').config();
@@ -78,7 +78,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
         currency: 'usd',
         product_data: {
           name: item.name,
-          images: item.image ? [`${process.env.BASE_URL || 'http://localhost:3000'}/${item.image}`] : [],
+          images: item.image ? [`${process.env.BASE_URL || 'http://localhost:5500'}/${item.image}`] : [],
           metadata: {
             product_id: item.id,
             pdf_path: item.image1 || ''
@@ -107,15 +107,15 @@ app.post('/api/create-checkout-session', async (req, res) => {
         })))
       },
       // Redirect URLs after payment
-      success_url: `${process.env.BASE_URL || 'http://localhost:3000'}/checkout.html?session_id={CHECKOUT_SESSION_ID}&status=success`,
-      cancel_url: `${process.env.BASE_URL || 'http://localhost:3000'}/checkout.html?status=cancelled`,
+      success_url: `${process.env.BASE_URL || 'http://localhost:5500'}/checkout.html?session_id={CHECKOUT_SESSION_ID}&status=success`,
+      cancel_url: `${process.env.BASE_URL || 'http://localhost:5500'}/checkout.html?status=cancelled`,
     });
 
     res.json({ id: session.id, url: session.url });
   } catch (error) {
     console.error('Error creating checkout session:', error);
-    res.status(500).json({ 
-      error: error.message || 'Failed to create checkout session' 
+    res.status(500).json({
+      error: error.message || 'Failed to create checkout session'
     });
   }
 });
@@ -163,7 +163,7 @@ async function handleSuccessfulPayment(session) {
   try {
     // Get the buyer's email address that Stripe collected during checkout
     const customerEmail = session.customer_details?.email || session.customer_email;
-    
+
     if (!customerEmail) {
       console.error('No customer email found in session:', session.id);
       return;
@@ -186,7 +186,7 @@ async function handleSuccessfulPayment(session) {
         // Resolve the PDF file path relative to the project directory
         const pdfPath = path.join(__dirname, '..', item.image1);
         const fileName = path.basename(item.image1);
-        
+
         attachments.push({
           filename: fileName,
           path: pdfPath,
@@ -196,7 +196,7 @@ async function handleSuccessfulPayment(session) {
     }
 
     // Build the list of purchased items for the email body
-    const itemsList = orderItems.map((item) => 
+    const itemsList = orderItems.map((item) =>
       `- ${item.name} (Qty: ${item.quantity}) - $${(item.priceCents / 100).toFixed(2)} each`
     ).join('\n');
 
@@ -268,7 +268,7 @@ async function handleSuccessfulPayment(session) {
 app.get('/api/session-status', async (req, res) => {
   try {
     const { session_id } = req.query;
-    
+
     if (!session_id) {
       return res.status(400).json({ error: 'Missing session_id parameter' });
     }
@@ -289,7 +289,7 @@ app.get('/api/session-status', async (req, res) => {
 
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5500;
 app.listen(PORT, () => {
   console.log(`DA Prints AI server running on port ${PORT}`);
   console.log(`Open http://localhost:${PORT}/amazon.html to view the store`);
