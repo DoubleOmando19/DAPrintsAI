@@ -94,7 +94,7 @@ export function renderPaymentSummary() {
 
         // Create a Stripe Checkout Session on the server
         // This supports purchasing multiple pictures in a single transaction
-        const response = await fetch('http://localhost:3000/api/create-checkout-session', {
+        const response = await fetch('http://localhost:5500/api/create-checkout-session', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
