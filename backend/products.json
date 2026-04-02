@@ -8,7 +8,7 @@
       "stars": 4.5,
       "count": 87
     },
-    "priceCents": 199
+    "priceCents": 0
   },
   {
     "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
@@ -19,8 +19,7 @@
       "stars": 4,
       "count": 127
     },
-    "priceCents": 199
-
+    "priceCents": 0
   },
   {
     "id": "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
@@ -43,7 +42,6 @@
       "count": 2197
     },
     "priceCents": 199
-
   },
   {
     "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
@@ -77,7 +75,6 @@
       "count": 317
     },
     "priceCents": 199
-
   },
   {
     "id": "77919bbe-0e56-475b-adde-4f24dfed3a04",
@@ -133,7 +130,6 @@
       "count": 30
     },
     "priceCents": 199
-
   },
   {
     "id": "04701903-bc79-49c6-bc11-1af7e3651358",
@@ -145,7 +141,6 @@
       "count": 562
     },
     "priceCents": 199
-
   },
   {
     "id": "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
@@ -157,7 +152,6 @@
       "count": 232
     },
     "priceCents": 199
-
   },
   {
     "id": "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
@@ -169,7 +163,6 @@
       "count": 160
     },
     "priceCents": 199
-
   },
   {
     "id": "c2a82c5e-aff4-435f-9975-517cfaba2ece",
@@ -181,7 +174,6 @@
       "count": 846
     },
     "priceCents": 199
-
   },
   {
     "id": "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
@@ -193,7 +185,6 @@
       "count": 99
     },
     "priceCents": 199
-
   },
   {
     "id": "a82c6bac-3067-4e68-a5ba-d827ac0be010",
@@ -205,7 +196,6 @@
       "count": 215
     },
     "priceCents": 199
-
   },
   {
     "id": "e4f64a65-1377-42bc-89a5-e572d19252e2",
@@ -228,7 +218,6 @@
       "count": 2465
     },
     "priceCents": 199
-
   },
   {
     "id": "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
@@ -284,7 +273,6 @@
       "count": 456
     },
     "priceCents": 199
-
   },
   {
     "id": "d2785924-743d-49b3-8f03-ec258e640503",
@@ -307,7 +295,6 @@
       "count": 9017
     },
     "priceCents": 199
-
   },
   {
     "id": "1c079479-8586-494f-ab53-219325432536",
@@ -363,7 +350,6 @@
       "count": 248
     },
     "priceCents": 199
-
   },
   {
     "id": "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
@@ -419,7 +405,6 @@
       "count": 363
     },
     "priceCents": 199
-
   },
   {
     "id": "8a53b080-6d40-4a65-ab26-b24ecf700bce",
@@ -486,7 +471,6 @@
       "count": 3157
     },
     "priceCents": 199
-
   },
   {
     "id": "bc2847e9-5323-403f-b7cf-57fde044a956",
@@ -498,7 +482,6 @@
       "count": 3157
     },
     "priceCents": 199
-
   },
   {
     "id": "bc2847e9-5323-403f-b7cf-57fde044a957",
@@ -510,7 +493,6 @@
       "count": 3157
     },
     "priceCents": 199
-
   },
   {
     "id": "bc2847e9-5323-403f-b7cf-57fde044a958",
@@ -645,4 +627,3 @@
     "priceCents": 199
   }
 ]
-

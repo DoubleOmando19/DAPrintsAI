@@ -190,7 +190,7 @@ async function handleSuccessfulPayment(session) {
         attachments.push({
           filename: fileName,
           path: pdfPath,
-          contentType: 'application/pdf'
+          contentType: fileName.endsWith('.pdf') ? 'application/pdf' : 'image/png'
         });
       }
     }
@@ -286,6 +286,31 @@ app.get('/api/session-status', async (req, res) => {
     res.status(500).json({ error: 'Failed to retrieve session status' });
   }
 });
+
+// === TEST ENDPOINT ===
+app.get("/api/test-email-delivery", async (req, res) => {
+  const testEmail = req.query.email || "henry_alcaide@hotmail.com";
+  console.log("TEST: Sending email to " + testEmail);
+  const fakeSession = {
+    id: "test_" + Date.now(),
+    customer_details: { email: testEmail },
+    amount_total: 0,
+    metadata: {
+      order_items: JSON.stringify([
+        { id: "1", name: "AI Artwork - Fall Trail", quantity: 1, priceCents: 0, image1: "images/products/FallForestTrail.png" },
+        { id: "2", name: "AI Artwork - The Ship", quantity: 1, priceCents: 0, image1: "images/products/Theship.png" }
+      ])
+    }
+  };
+  try {
+    await handleSuccessfulPayment(fakeSession);
+    res.json({ success: true, message: "Email sent to " + testEmail });
+  } catch (error) {
+    console.error("Test failed:", error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+// === END TEST ===
 
 // Start the server
 const PORT = process.env.PORT || 3000;
