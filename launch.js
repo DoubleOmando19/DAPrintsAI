@@ -73,8 +73,9 @@ function waitForServer(pid, attempts) {
       console.log(" [OK] Opening " + URL);
       console.log("");
       console.log("DA Prints is ready!");
-      console.log("Press Ctrl+C to stop the server...");
+      console.log("(Backend server running independently on port " + PORT + ")");
       openBrowser(URL);
+      process.exit(0);
     } else {
       setTimeout(function () { waitForServer(pid, attempts + 1); }, 1500);
     }
@@ -96,16 +97,13 @@ checkServer(function (running) {
   console.log(" [..] Starting backend server...");
   var child = spawn("node", ["backend/server.js"], {
     cwd: __dirname,
-    stdio: "inherit"
+    detached: true,
+        stdio: "ignore"
   });
+    child.unref();
   child.on("error", function (err) {
     console.error("[FAIL] " + err.message);
     process.exit(1);
-  });
-  process.on("SIGINT", function () {
-    console.log("Shutting down...");
-    child.kill();
-    process.exit(0);
   });
   waitForServer(child.pid, 0);
 });
