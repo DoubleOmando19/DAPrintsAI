@@ -289,7 +289,7 @@ app.get('/api/session-status', async (req, res) => {
 
 
 // Start the server
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`DA Prints AI server running on port ${PORT}`);
   console.log(`Open http://localhost:${PORT}/amazon.html to view the store`);
