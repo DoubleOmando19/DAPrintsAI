@@ -25,6 +25,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const nodemailer = require('nodemailer');
 
 const app = express();
@@ -54,6 +55,10 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+// Verify SMTP connection on startup
+transporter.verify()
+    .then(() => console.log('SMTP connection verified successfully (Brevo)'))
+    .catch((err) => console.error('SMTP connection error:', err.message));
 /**
  * POST /api/create-checkout-session
  * 
@@ -187,6 +192,10 @@ async function handleSuccessfulPayment(session) {
         const pdfPath = path.join(__dirname, '..', item.image1);
         const fileName = path.basename(item.image1);
 
+            if (!fs.existsSync(pdfPath)) {
+                console.error('PDF file not found:', pdfPath);
+                continue;
+            }
         attachments.push({
           filename: fileName,
           path: pdfPath,
