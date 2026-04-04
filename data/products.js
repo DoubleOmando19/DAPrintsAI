@@ -754,7 +754,7 @@ export const products = [
   {
     id: "bc2847e9-5323-403f-b7cf-57fde044a972",
     image: "images/products/soccerball.jpg",
-    image1: "/images/New Project picz PDF/.pdf",
+    image1: "/images/New Project picz PDF/soccerball.pdf",
     name: "R1 AI Artwork - Futbol",
     rating: {
       stars: 4.5,
