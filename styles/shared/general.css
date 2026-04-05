@@ -104,3 +104,15 @@ select:focus,
 input:focus {
   outline: 2px solid rgb(255, 153, 0);
 }
+
+/* ===== Mobile fixes for iPhone 14 (390px) - Fix 5: No horizontal scrolling ===== */
+@media (max-width: 480px) {
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}

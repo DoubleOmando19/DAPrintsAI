@@ -159,3 +159,33 @@
   padding: 8px;
   border-radius: 50px;
 }
+
+/* ===== Mobile fixes for iPhone 14 (390px) ===== */
+@media (max-width: 480px) {
+  /* Fix 2: Reduce 'Generative AI Artwork' section header font size */
+  .amazon-header-middle-section ± p,
+  body > p,
+  p[style*="font-size: 40px"] {
+    font-size: 18px !important;
+    margin-top: -30px !important;
+    white-space: nowrap !important;
+  }
+
+  /* Fix for 'Featured Products' not being overlapped */
+  p[style*="font-size: 23px"] {
+    margin-top: 10px !important;
+  }
+
+  /* Fix 4: Single column product grid on mobile */
+  .products-grid,
+  .js-products-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Fix for product container width */
+  .product-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+}
