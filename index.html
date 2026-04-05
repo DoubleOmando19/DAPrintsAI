@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DA Prints</title>
+
+  <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Load a font called Roboto from Google Fonts. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Here are the CSS files for this page. -->
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/shared/amazon-header.css">
+  <link rel="stylesheet" href="styles/pages/amazon.css">
+</head>
+
+<body>
+  <div class="amazon-header">
+    <div class="amazon-header-left-section">
+      <a href="amazon.html" class="header-link">
+        <img class="amazon-logo" src="images/Roboto7.png" title="Roboto7">
+      </a>
+    </div>
+
+    <div class="amazon-header-middle-section">
+      <p
+        style="font-family: copperplate; font-size: 21px; display: flex; justify-content: center; align-items: center; color: black; letter-spacing: .001cap;">
+        DA Prints AI</p>
+    </div>
+
+    <div class="amazon-header-right-section">
+      <a class="cart-link header-link" href="checkout.html">
+        <img class="cart-icon" src="images/icons/cart-icon.png">
+        <div class="cart-quantity js-cart-quantity">0</div>
+        <div class="cart-text">Cart/Info</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="main">
+    <div>
+      <div>
+        <img style="object-fit: cover; height: 100px; width: 100%; margin-top: -10px;" src="images/Oceanwater.jpg">
+      </div>
+      <div>
+        <p
+          style="height: 50px; display: flex; justify-content: center; align-items: center; flex-shrink: 0; font-family: fantasy; font-weight: bold; color: black; margin-left: 1px; margin-top: -65px; font-size: 40px; color: rgb(64, 63, 63);">
+          Browse All Our
+          Generative AI Artwork</p>
+      </div>
+
+      <div>
+        <p
+          style="margin-top: 25px; display: grid; text-decoration: underline; height: 30px; font-size: 23px; font-family: Impact; padding-left: 15px; border: none; text-decoration: underline; color: gray;">
+          Featured Products</p>
+      </div>
+
+      <!-- Product grid rendered by amazon.js - supports adding multiple items to cart -->
+      <div class="js-products-grid">
+      </div>
+    </div>
+
+    <footer class="bg-white border-t mt-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center text-gray-600">
+          <p style="margin-top: 5px; margin-left: 530px; align-items: center;">&copy; 2024 DA Prints. All rights
+            reserved.</p>
+          <p style="margin-top: 5px; margin-left: 470px; align-items: center;" class="mt-2 text-sm">Generative AI
+            digital art prints for
+            instant download</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/amazon.js"></script>
+  </div>
+</body>
+
+</html>
