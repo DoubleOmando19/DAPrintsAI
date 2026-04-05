@@ -36,7 +36,11 @@ app.post('/api/webhook', express.raw({ type: 'application/json' }), handleWebhoo
 
 // Parse JSON for all other routes
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || 'https://daprintsai.live',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: true
+}));
 
 // Serve static files (the frontend)
 app.use(express.static(path.join(__dirname, '..')));
@@ -88,7 +92,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
         currency: 'usd',
         product_data: {
           name: item.name,
-          images: item.image ? [`${process.env.BASE_URL || 'http://localhost:3000'}/${item.image}`] : [],
+          images: item.image ? [`${process.env.BASE_URL || 'https://daprintsai.live'}/${item.image}`] : [],
           metadata: {
             product_id: item.id,
             pdf_path: item.image1 || ''
@@ -117,8 +121,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
         })))
       },
       // Redirect URLs after payment
-      success_url: `${process.env.BASE_URL || 'http://localhost:3000'}/checkout.html?session_id={CHECKOUT_SESSION_ID}&status=success`,
-      cancel_url: `${process.env.BASE_URL || 'http://localhost:3000'}/checkout.html?status=cancelled`,
+      success_url: `${process.env.BASE_URL || 'https://daprintsai.live'}/checkout.html?session_id={CHECKOUT_SESSION_ID}&status=success`,
+      cancel_url: `${process.env.BASE_URL || 'https://daprintsai.live'}/checkout.html?status=cancelled`,
     });
 
     res.json({ id: session.id, url: session.url });

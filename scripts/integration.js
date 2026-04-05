@@ -28,7 +28,7 @@ function checkPaymentStatus() {
 async function handleSuccessfulReturn(sessionId) {
   try {
     // Query the server for the completed session details
-    const response = await fetch(`http://localhost:3000/api/session-status?session_id=${sessionId}`);
+    const response = await fetch(`https://da-prints-backend.onrender.com/api/session-status?session_id=${sessionId}`);
 
     if (!response.ok) {
       throw new Error('Failed to retrieve payment status');
