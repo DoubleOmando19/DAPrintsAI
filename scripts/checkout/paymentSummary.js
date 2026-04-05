@@ -95,7 +95,7 @@ export function renderPaymentSummary() {
 
         // Create a Stripe Checkout Session on the server
         // This supports purchasing multiple pictures in a single transaction
-        const response = await fetch('https://da-prints-backend.onrender.com/api/create-checkout-session', {
+        const response = await fetch('/api/create-checkout-session', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
