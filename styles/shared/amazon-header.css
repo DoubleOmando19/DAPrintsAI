@@ -155,7 +155,7 @@
   /* Fix 1: Reduce 'DA Prints AI' logo font size to fit on one line */
   .amazon-header-middle-section p {
     font-size: 16px !important;
-          font-weight: bold !important;
+    font-weight: bold !important;
     white-space: nowrap !important;
   }
 
