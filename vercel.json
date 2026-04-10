@@ -446,62 +446,62 @@
   "redirects": [
     {
       "source": "/apple-touch-icon-v3.png",
-      "destination": "/apple-touch-icon-v5.png?t=1775761637",
+      "destination": "/apple-touch-icon-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-v3.ico",
-      "destination": "/favicon-v5.ico?t=1775761637",
+      "destination": "/favicon-v5.ico?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-v3.svg",
-      "destination": "/favicon-v5.svg?t=1775761637",
+      "destination": "/favicon-v5.svg?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-16x16-v3.png",
-      "destination": "/favicon-16x16-v5.png?t=1775761637",
+      "destination": "/favicon-16x16-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-32x32-v3.png",
-      "destination": "/favicon-32x32-v5.png?t=1775761637",
+      "destination": "/favicon-32x32-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-192x192-v3.png",
-      "destination": "/favicon-192x192-v5.png?t=1775761637",
+      "destination": "/favicon-192x192-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/apple-touch-icon-v4.png",
-      "destination": "/apple-touch-icon-v5.png?t=1775761637",
+      "destination": "/apple-touch-icon-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-v4.ico",
-      "destination": "/favicon-v5.ico?t=1775761637",
+      "destination": "/favicon-v5.ico?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-v4.svg",
-      "destination": "/favicon-v5.svg?t=1775761637",
+      "destination": "/favicon-v5.svg?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-16x16-v4.png",
-      "destination": "/favicon-16x16-v5.png?t=1775761637",
+      "destination": "/favicon-16x16-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-32x32-v4.png",
-      "destination": "/favicon-32x32-v5.png?t=1775761637",
+      "destination": "/favicon-32x32-v5.png?t=1775791996",
       "statusCode": 302
     },
     {
       "source": "/favicon-192x192-v4.png",
-      "destination": "/favicon-192x192-v5.png?t=1775761637",
+      "destination": "/favicon-192x192-v5.png?t=1775791996",
       "statusCode": 302
     }
   ],
