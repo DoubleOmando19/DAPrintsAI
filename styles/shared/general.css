@@ -117,7 +117,7 @@ input:focus {
     box-sizing: border-box;
   }
   
-  .browse-heading {
+  p.browse-heading {
     margin-top: -10px;
   }
 }
