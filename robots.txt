@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://daprintsai.live/sitemap.xml
+Sitemap: https://www.daprintsai.live/sitemap.xml
