@@ -117,7 +117,7 @@ input:focus {
     box-sizing: border-box;
   }
   
-  p.mobile-break {
+  mobile-break {
     margin-top: -10px;
   }
 }
