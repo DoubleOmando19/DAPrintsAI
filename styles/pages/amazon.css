@@ -204,12 +204,11 @@
   /* Fix: Reduce 'Browse All Our Generative AI Artwork' font size on mobile */
   .browse-heading {
     font-size: 16px !important;
-      font-weight: bold !important;
-      text-align: center !important;
-      display: block !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    display: block !important;
     line-height: 1.2 !important;
     margin-top: -45px !important;
-    height: auto !important;
   }
 
   /* Show line break on mobile */
