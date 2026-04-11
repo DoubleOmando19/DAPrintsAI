@@ -159,7 +159,7 @@
     font-weight: bold !important;
     white-space: nowrap !important;
     margin-left: 70px;
-    margin-top: 1px;
+    margin-top: -10px;
   }
 
   /* Fix 3: Shift cart/info button left so all text is fully visible */
@@ -179,7 +179,7 @@
   }
 
   .cart-text {
-    font-size: 13px !important;
+    font-size: 14px !important;
     font-weight: bold;
     position: absolute !important;
     top: 16px !important;
@@ -189,7 +189,7 @@
   }
 
   .cart-quantity {
-    left: 20px !important;
+    left: 24px !important;
     width: 18px !important;
     height: 18px !important;
     line-height: 18px !important;
