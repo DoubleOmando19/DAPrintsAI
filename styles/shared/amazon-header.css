@@ -155,10 +155,10 @@
 @media (max-width: 480px) {
   /* Fix 1: Reduce 'DA Prints AI' logo font size to fit on one line */
   .amazon-header-middle-section p {
-    font-size: 25px !important;
+    font-size: 26px !important;
     font-weight: bold !important;
     white-space: nowrap !important;
-    margin-left: 60px;
+    margin-left: 70px;
   }
 
   /* Fix 3: Shift cart/info button left so all text is fully visible */
