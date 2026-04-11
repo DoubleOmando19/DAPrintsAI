@@ -40,6 +40,7 @@
 
   .checkout-grid {
     grid-template-columns: 1fr;
+        margin-right: 0;
   }
 }
 
