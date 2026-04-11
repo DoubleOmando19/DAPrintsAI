@@ -92,7 +92,7 @@ function displaySuccessMessage(sessionData) {
         </p>
       </div>
 
-      <a href="amazon.html" style="display: inline-block; margin-top: 20px; padding: 12px 30px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">
+      <a href="index.html" style="display: inline-block; margin-top: 20px; padding: 12px 30px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">
         Continue Shopping
       </a>
     </div>
