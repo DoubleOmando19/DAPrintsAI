@@ -1,93 +1,94 @@
 /* DA Prints AI Chatbot â Email List Building Assistant */
-/* Transparent, minimal theme â half-size layout */
+/* Transparent, glass theme â 20% scaled up layout */
 
 .dap-chat-toggle {
-  position: fixed; bottom: 18px; right: 18px;
-  width: 40px; height: 40px; border-radius: 50%;
-  background: transparent;
-  border: none; cursor: pointer; z-index: 9999;
-  display: flex; align-items: center; justify-content: center;
-  transition: transform 0.3s, opacity 0.3s;
-  padding: 0;
+    position: fixed; bottom: 22px; right: 22px;
+    width: 48px; height: 48px; border-radius: 50%;
+    background: transparent;
+    border: none; cursor: pointer; z-index: 9999;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.3s, opacity 0.3s;
+    padding: 0;
 }
 .dap-chat-toggle:hover { transform: scale(1.12); opacity: 0.85; }
 .dap-chat-toggle img {
-  width: 40px; height: 40px; border-radius: 50%;
-  object-fit: cover;
+    width: 48px; height: 48px; border-radius: 50%;
+    object-fit: cover;
 }
 
 .dap-chat-window {
-  position: fixed; bottom: 66px; right: 16px;
-  width: 200px; max-height: 260px;
-  background: rgba(255,255,255,0.08);
-  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-  z-index: 9998; display: none; flex-direction: column;
-  overflow: hidden; font-family: Roboto, sans-serif;
-  border: 1px solid rgba(180,180,180,0.18);
+    position: fixed; bottom: 79px; right: 19px;
+    width: 240px; max-height: 312px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+    border-radius: 14px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.10);
+    z-index: 9998; display: none; flex-direction: column;
+    overflow: hidden; font-family: Roboto, sans-serif;
+    border: 1px solid rgba(180,180,180,0.18);
 }
 .dap-chat-window.open { display: flex; }
 
 .dap-chat-header {
-  background: transparent;
-  padding: 8px 10px; display: flex;
-  align-items: center; justify-content: space-between;
-  border-bottom: 1px solid rgba(180,180,180,0.15);
+    background: transparent;
+    backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+    padding: 10px 12px; display: flex;
+    align-items: center; justify-content: space-between;
+    border-bottom: 1px solid rgba(180,180,180,0.15);
 }
-.dap-chat-header-title { color: #222; font-size: 11px; font-weight: 600; }
+.dap-chat-header-title { color: #222; font-size: 13px; font-weight: 600; }
 .dap-chat-close {
-  background: none; border: none; color: #555;
-  font-size: 15px; cursor: pointer; opacity: 0.7;
+    background: none; border: none; color: #555;
+    font-size: 18px; cursor: pointer; opacity: 0.7;
 }
 .dap-chat-close:hover { opacity: 1; }
 
 .dap-chat-messages {
-  flex: 1; overflow-y: auto; padding: 8px;
-  max-height: 150px; scroll-behavior: smooth;
+    flex: 1; overflow-y: auto; padding: 10px;
+    max-height: 180px; scroll-behavior: smooth;
 }
-.dap-chat-messages::-webkit-scrollbar { width: 3px; }
-.dap-chat-messages::-webkit-scrollbar-thumb { background: rgba(120,120,120,0.3); border-radius: 3px; }
+.dap-chat-messages::-webkit-scrollbar { width: 4px; }
+.dap-chat-messages::-webkit-scrollbar-thumb { background: rgba(120,120,120,0.3); border-radius: 4px; }
 
-@keyframes dapFadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes dapFadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
 .dap-msg {
-  margin-bottom: 6px; max-width: 90%;
-  padding: 5px 8px; border-radius: 8px;
-  font-size: 10px; line-height: 1.4;
-  animation: dapFadeIn 0.3s ease;
-  white-space: pre-line;
+    margin-bottom: 7px; max-width: 90%;
+    padding: 6px 10px; border-radius: 10px;
+    font-size: 12px; line-height: 1.4;
+    animation: dapFadeIn 0.3s ease;
+    white-space: pre-line;
 }
 .dap-msg.bot { background: rgba(0,0,0,0.04); color: #222; }
 .dap-msg.user { background: rgba(100,100,200,0.10); color: #222; margin-left: auto; }
 
-.dap-quick-replies { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
+.dap-quick-replies { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
 .dap-quick-btn {
-  background: transparent; color: #444;
-  border: 1px solid rgba(150,150,150,0.35); border-radius: 10px;
-  padding: 3px 7px; font-size: 9px; cursor: pointer;
-  font-family: Roboto, sans-serif; transition: background 0.2s, color 0.2s;
+    background: #6c5ce7; color: #fff;
+    border: none; border-radius: 12px;
+    padding: 4px 8px; font-size: 11px; cursor: pointer;
+    font-family: Roboto, sans-serif; transition: background 0.2s, color 0.2s;
 }
-.dap-quick-btn:hover { background: rgba(100,100,200,0.12); color: #222; border-color: rgba(100,100,200,0.3); }
+.dap-quick-btn:hover { background: #5a4bd1; color: #fff; }
 
-.dap-email-form { display: flex; gap: 3px; margin-top: 5px; }
+.dap-email-form { display: flex; gap: 4px; margin-top: 6px; }
 .dap-email-form input {
-  flex: 1; padding: 4px 7px; border-radius: 6px;
-  border: 1px solid rgba(150,150,150,0.3);
-  background: transparent; color: #222; font-size: 9px;
-  font-family: Roboto, sans-serif; outline: none;
+    flex: 1; padding: 5px 8px; border-radius: 7px;
+    border: 1px solid rgba(150,150,150,0.3);
+    background: rgba(108,92,231,0.08); color: #222; font-size: 11px;
+    font-family: Roboto, sans-serif; outline: none;
 }
 .dap-email-form input::placeholder { color: #999; }
-.dap-email-form input:focus { border-color: rgba(100,100,200,0.5); }
+.dap-email-form input:focus { border-color: rgba(108,92,231,0.5); }
 .dap-email-form button {
-  background: rgba(100,100,200,0.15); color: #333; border: 1px solid rgba(150,150,150,0.25);
-  padding: 4px 8px; border-radius: 6px; font-size: 9px;
-  cursor: pointer; font-family: Roboto, sans-serif;
+    background: #6c5ce7; color: #fff; border: none;
+    padding: 5px 10px; border-radius: 7px; font-size: 11px;
+    cursor: pointer; font-family: Roboto, sans-serif;
 }
-.dap-email-form button:hover { background: rgba(100,100,200,0.25); }
+.dap-email-form button:hover { background: #5a4bd1; }
 
 @media (max-width: 480px) {
-  .dap-chat-window { width: calc(60vw - 12px); right: 10px; bottom: 60px; max-height: 45vh; }
-  .dap-chat-toggle { width: 34px; height: 34px; bottom: 12px; right: 12px; }
-  .dap-chat-toggle img { width: 34px; height: 34px; }
+    .dap-chat-window { width: calc(60vw - 14px); right: 12px; bottom: 72px; max-height: 54vh; }
+    .dap-chat-toggle { width: 41px; height: 41px; bottom: 14px; right: 14px; }
+    .dap-chat-toggle img { width: 41px; height: 41px; }
 }
