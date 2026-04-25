@@ -31,7 +31,7 @@ module.exports = async (req, res) => {
 
   try {
     const { email, tag, gift } = req.body;
-    if (!email || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {
+    if (!email || !/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(email)) {
       return res.status(400).json({ success: false, message: 'Valid email required.' });
     }
 
@@ -69,10 +69,12 @@ module.exports = async (req, res) => {
 
     let subject = 'Welcome to DA Prints AI!';
     let body = '<h2>Welcome to DA Prints AI!</h2><p>Thank you for subscribing.</p>';
+    let emailAttachments = [];
 
     if (tag === 'free-wallpapers') {
-      subject = 'Your Free 4K Wallpapers from DA Prints AI!';
-      body = '<h2>Your Free Wallpapers Are Here!</h2><p>Thank you for joining! Here are your 3 exclusive 4K digital wallpapers.</p><p>Visit <a href="https://daprintsai.live">daprintsai.live</a> to browse our full collection.</p>';
+      subject = 'Your Free Wallpaper from DA Prints AI!';
+      body = '<h2>Your Free Wallpaper Is Here!</h2><p>Thank you for joining! Here is your free digital wallpaper.</p><p>Visit <a href="https://daprintsai.live">daprintsai.live</a> to browse our full collection.</p>';
+        emailAttachments.push({ filename: "R1 AI Artwork - The Eagle.pdf", path: path.join(process.cwd(), "images", "New Project picz PDF", "Eagle.pdf"), contentType: "application/pdf" });
     } else if (tag === 'discount-15') {
       subject = 'Your 15% Discount Code from DA Prints AI!';
       body = '<h2>Your Exclusive Discount!</h2><p>Use code <strong>DAPRINTS15</strong> at checkout for 15% off your first order.</p><p>Shop now at <a href="https://daprintsai.live">daprintsai.live</a></p>';
@@ -87,13 +89,15 @@ module.exports = async (req, res) => {
       body = '<h2>Welcome to Our Community!</h2><p>Connect with fellow digital art enthusiasts.</p>';
     }
 
+    body += '<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:20px 0;"><tr><td width="25%" height="8" style="background-color:#1a73e8;"></td><td width="25%" height="8" style="background-color:#4ecdc4;"></td><td width="25%" height="8" style="background-color:#e94560;"></td><td width="25%" height="8" style="background-color:#1a73e8;"></td></tr></table>';
     body += '<br><hr><p style="font-size:12px;color:#888;">DA Prints AI | <a href="https://daprintsai.live">daprintsai.live</a></p>';
 
     await transporter.sendMail({
       from: process.env.EMAIL_FROM || 'DA Prints AI <noreply@daprintsai.live>',
       to: email,
       subject: subject,
-      html: body
+      html: body,
+        attachments: emailAttachments
     });
 
     return res.status(200).json({ success: true, message: 'Subscribed! Check your email.' });
