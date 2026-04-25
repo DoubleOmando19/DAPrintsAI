@@ -200,13 +200,13 @@
     max-height: 54vh;
   }
   .dap-chat-toggle {
-    width: 41px;
-    height: 41px;
-    bottom: 14px;
-    right: 14px;
+    width: 62px;
+    height: 62px;
+    bottom: 29px;
+    right: 24px;
   }
   .dap-chat-toggle img {
-    width: 41px;
-    height: 41px;
+    width: 62px;
+    height: 62px;
   }
 }
