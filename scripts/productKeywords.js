@@ -427,7 +427,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Parrots.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a962",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a966",
     name: "AI Artwork - Waterfall",
     productClass: "landscape",
     keywords: ["waterfall", "water", "cascade", "nature", "scenic", "river", "falls", "peaceful", "tropical"],
@@ -435,7 +435,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Waterfall.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a963",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a967",
     name: "R1 AI Artwork - XMas Tree",
     productClass: "fantasy",
     keywords: ["christmas", "tree", "xmas", "holiday", "festive", "decoration", "winter", "celebration", "seasonal"],
@@ -443,7 +443,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/xmastree.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a964",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a968",
     name: "R1 AI Artwork - BabySanta",
     productClass: "fantasy",
     keywords: ["baby", "santa", "christmas", "holiday", "festive", "cute", "winter", "celebration", "adorable"],
@@ -451,7 +451,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/babysanta.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a965",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a969",
     name: "R1 AI Artwork - El Alpaca",
     productClass: "animal",
     keywords: ["alpaca", "llama", "animal", "cute", "fluffy", "south american", "wildlife", "wool", "adorable"],
@@ -459,7 +459,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Alpaca.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a966",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a970",
     name: "R1 AI Artwork - The Eagle",
     productClass: "animal",
     keywords: ["eagle", "bird", "raptor", "majestic", "freedom", "soaring", "wildlife", "predator", "patriotic"],
@@ -467,7 +467,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Eagle.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a967",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a971",
     name: "R1 AI Artwork - Crystal Cat",
     productClass: "fantasy",
     keywords: ["crystal", "cat", "feline", "magical", "fantasy", "sparkle", "mystical", "pet", "enchanted"],
@@ -475,7 +475,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/crystalcat.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a968",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a972",
     name: "R1 AI Artwork - Blue angel",
     productClass: "fantasy",
     keywords: ["blue", "angel", "wings", "celestial", "divine", "heavenly", "spiritual", "ethereal", "fantasy"],
@@ -483,7 +483,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/blueangel.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a9669",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a9673",
     name: "R1 AI Artwork - El Toucan",
     productClass: "animal",
     keywords: ["toucan", "bird", "tropical", "colorful", "exotic", "beak", "wildlife", "rainforest", "avian"],
@@ -491,7 +491,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/2Birds.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a970",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a974",
     name: "R1 AI Artwork - Mini mouse",
     productClass: "character",
     keywords: ["minnie mouse", "mouse", "disney", "cartoon", "character", "cute", "classic", "fun", "animated"],
@@ -499,7 +499,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/MINIBEAR.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a971",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a975",
     name: "R1 AI Artwork - El Nemo",
     productClass: "character",
     keywords: ["nemo", "fish", "clownfish", "ocean", "animated", "character", "underwater", "sea", "cute"],
@@ -507,7 +507,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/nemo.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a972",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a976",
     name: "R1 AI Artwork - Futbol",
     productClass: "sports",
     keywords: ["futbol", "soccer", "football", "ball", "sport", "game", "goal", "field", "athletic"],
@@ -515,7 +515,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/soccerball.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a973",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a977",
     name: "R1 AI Artwork - Basketball",
     productClass: "sports",
     keywords: ["basketball", "ball", "sport", "hoop", "court", "game", "nba", "athletic", "player"],
@@ -523,7 +523,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Bball.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a974",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a978",
     name: "R1 AI Artwork - The Bear",
     productClass: "animal",
     keywords: ["bear", "wildlife", "animal", "grizzly", "forest", "nature", "mammal", "wild", "powerful"],
@@ -531,7 +531,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/multicolorbear.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a975",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a979",
     name: "R1 AI Artwork - Jack",
     productClass: "character",
     keywords: ["jack", "pumpkin", "halloween", "spooky", "skeleton", "character", "horror", "scary", "nightmare"],
@@ -539,7 +539,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Jack2.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a976",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a980",
     name: "R1 AI Artwork - MickieDee",
     productClass: "character",
     keywords: ["mickey", "mouse", "disney", "cartoon", "character", "classic", "fun", "animated", "iconic"],
@@ -547,7 +547,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/mcd1.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a977",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a981",
     name: "R1 AI Artwork - Angel",
     productClass: "fantasy",
     keywords: ["angel", "wings", "celestial", "divine", "heavenly", "spiritual", "ethereal", "guardian", "holy"],
@@ -555,7 +555,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/angel.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a978",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a982",
     name: "R1 AI Artwork - Supermario",
     productClass: "character",
     keywords: ["super mario", "mario", "nintendo", "game", "character", "gaming", "mushroom", "classic", "adventure"],
@@ -563,7 +563,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Supermario.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a979",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a983",
     name: "AI Artwork - El Rodeo",
     productClass: "sports",
     keywords: ["rodeo", "cowboy", "western", "horse", "bull", "riding", "ranch", "country", "sport"],
@@ -571,7 +571,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Theride.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a980",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a984",
     name: "R1 AI Artwork - Mon chi-chi",
     productClass: "character",
     keywords: ["monchhichi", "monkey", "toy", "cute", "character", "retro", "doll", "vintage", "adorable"],
@@ -579,7 +579,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Monchichi.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a981",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a985",
     name: "AI Artwork - Aquarium",
     productClass: "nature",
     keywords: ["aquarium", "fish", "underwater", "water", "marine", "tank", "tropical fish", "ocean", "coral"],
@@ -587,7 +587,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Nemo1.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a982",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a986",
     name: "R1 AI Artwork - Roboto7",
     productClass: "fantasy",
     keywords: ["robot", "mechanical", "futuristic", "sci-fi", "technology", "machine", "android", "metal", "cyber"],
@@ -595,7 +595,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Roboto1.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a983",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a987",
     name: "R1 AI Artwork - El Rabbit",
     productClass: "animal",
     keywords: ["rabbit", "bunny", "cute", "pet", "animal", "fluffy", "hare", "nature", "adorable"],
@@ -603,7 +603,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/rabbit.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a984",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a988",
     name: "R1 AI Artwork - Silver Elephant",
     productClass: "animal",
     keywords: ["elephant", "silver", "wildlife", "animal", "majestic", "trunk", "african", "large", "mammal"],
@@ -611,7 +611,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/silverelephant.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a985",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a989",
     name: "R1 AI Artwork - Swan",
     productClass: "animal",
     keywords: ["swan", "bird", "elegant", "water", "lake", "graceful", "white", "nature", "beautiful"],
@@ -619,7 +619,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/swan.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a987",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a990",
     name: "R1 AI Artwork - La Russa",
     productClass: "character",
     keywords: ["la russa", "portrait", "artistic", "cultural", "woman", "beauty", "fashion", "elegant", "classic"],
@@ -627,7 +627,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/Russa.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a988",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a991",
     name: "AI Artwork - MarioWorld",
     productClass: "character",
     keywords: ["mario world", "mario", "nintendo", "game", "character", "gaming", "adventure", "mushroom", "pixel"],
@@ -635,7 +635,7 @@ const productKeywords = [
     pdf: "/images/New Project picz PDF/supermario4.pdf"
   },
   {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a989",
+    id: "bc2847e9-5323-403f-b7cf-57fde044a992",
     name: "AI Artwork - Angels",
     productClass: "fantasy",
     keywords: ["angels", "wings", "celestial", "divine", "heavenly", "spiritual", "ethereal", "guardian", "pair"],
