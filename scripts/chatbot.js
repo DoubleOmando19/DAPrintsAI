@@ -19,7 +19,7 @@
       ]
     },
     browse: {
-      text: "\ud83d\uddbc\ufe0f We have 85 stunning digital artworks at just $1.99 each! Instant download after purchase. Want to stay updated on new drops?",
+      text: "\ud83d\uddbc\ufe0f We have 80 stunning digital artworks at just $1.99 each! Instant download after purchase. Want to stay updated on new drops?",
       options: [
         { label: "\u2705 Yes, notify me!", action: "signup_newdrops" },
         { label: "\u2b05\ufe0f Back to Menu", action: "main" }
