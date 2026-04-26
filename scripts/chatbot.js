@@ -286,7 +286,7 @@
             if (action === "signup_wallpapers") { addBotMsg("\ud83d\udce7 Enter your email to get one free wallpaper"); } else { addBotMsg("\ud83d\udce7 Great choice! Enter your email to get " + info.gift + ":"); }
       showEmailForm(action); return;
     }
-        if (action === "keyword_search") { addBotMsg("\ud83d\udd0d Enter a keyword to search our artwork (e.g. animal, ocean, fantasy):"); showSearchForm(); return; }
+        if (action === "keyword_search") { addBotMsg("\ud83d\udd0d Enter a keyword to search our artwork."); showSearchForm(); return; }
     showMenu(action);
   }
 
