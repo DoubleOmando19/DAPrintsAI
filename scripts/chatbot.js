@@ -204,7 +204,7 @@
         var url = URL.createObjectURL(blob);
         var a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener";
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
- .       setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
+        setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
     }
 
   function toggleChat() {
