@@ -200,8 +200,11 @@
         html += "<div class=\"bottom-buttons\"><a class=\"back-btn\" href=\"amazon.html\">Back to Store</a><a class=\"back-btn checkout-btn\" href=\"checkout.html\">Checkout</a></div>";
         html += "<script>function addToCart(btn){var id=btn.getAttribute('data-product-id');var cart=JSON.parse(localStorage.getItem('cart'))||[];var found=false;for(var i=0;i<cart.length;i++){if(cart[i].productId===id){cart[i].quantity+=1;found=true;break;}}if(!found){cart.push({productId:id,quantity:1,deliveryOptionId:'1'});}localStorage.setItem('cart',JSON.stringify(cart));btn.textContent='Added \\u2713';btn.style.background='#4CAF50';btn.style.color='white';setTimeout(function(){btn.textContent='Add to Cart';btn.style.background='#febd69';btn.style.color='#232f3e';},1500);}<\/script>";
             html += "</body></html>";
-        var w = window.open("", "_blank");
-        if (w) { w.document.write(html); w.document.close(); }
+        var blob = new Blob([html], {type: "text/html"});
+        var url = URL.createObjectURL(blob);
+ .       var a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener";
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+ .       setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
     }
 
   function toggleChat() {
