@@ -184,11 +184,11 @@
 
         var title = document.createElement("div");
         title.style.cssText = "font-size:17px;font-weight:bold;color:#232f3e;";
-        title.textContent = "Results for \\"" + query + "\\"";
+        title.textContent = 'Results for "' + query + '"';
         hd.appendChild(title);
 
         var cb = document.createElement("button");
-        cb.textContent = "\\u2715";
+        cb.textContent = "\u2715";
         cb.style.cssText = "background:#232f3e;color:white;border:none;border-radius:50%;width:32px;height:32px;font-size:18px;cursor:pointer;flex-shrink:0;";
         cb.addEventListener("click", function() {
             if (ov.parentNode) ov.parentNode.removeChild(ov);
@@ -247,7 +247,7 @@
                             cart.push({productId: p.id, quantity: 1, deliveryOptionId: "1"});
                         }
                         localStorage.setItem("cart", JSON.stringify(cart));
-                        cartBtn.textContent = "Added \\u2713";
+                        cartBtn.textContent = "Added \u2713";
                         cartBtn.style.background = "#4CAF50";
                         cartBtn.style.color = "white";
                         setTimeout(function() {
