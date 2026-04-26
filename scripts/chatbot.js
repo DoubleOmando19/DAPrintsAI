@@ -211,9 +211,22 @@
                 }
 
                 var nameDiv = document.createElement("div");
-                nameDiv.style.cssText = "font-weight:bold;font-size:15px;color:#232f3e;margin-bottom:8px;";
+                nameDiv.style.cssText = "font-weight:bold;font-size:15px;color:#232f3e;margin-bottom:4px;";
                 nameDiv.textContent = p.name || "Unknown";
                 card.appendChild(nameDiv);
+
+                // Price display
+                if (typeof p.priceCents !== "undefined") {
+                    var priceDiv = document.createElement("div");
+                    priceDiv.style.cssText = "color:#b12704;font-size:16px;font-weight:bold;margin-bottom:8px;";
+                    if (p.priceCents === 0) {
+                        priceDiv.textContent = "FREE";
+                        priceDiv.style.color = "#067D62";
+                    } else {
+                        priceDiv.textContent = "$" + (p.priceCents / 100).toFixed(2);
+                    }
+                    card.appendChild(priceDiv);
+                }
 
                 // Add to Cart button
                 var cartBtn = document.createElement("button");
