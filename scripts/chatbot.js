@@ -202,7 +202,7 @@
             html += "</body></html>";
         var blob = new Blob([html], {type: "text/html"});
         var url = URL.createObjectURL(blob);
- .       var a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener";
+        var a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener";
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
  .       setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
     }
